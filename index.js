@@ -9,6 +9,6 @@ function handleFormSubmit(event){
         phone:telephone
     };
     const obj=JSON.stringify(myobj);
-    localStorage.setItem("User Details",obj);
+    localStorage.setItem("mail",obj);
 }
 module.exports=handleFormSubmit;
